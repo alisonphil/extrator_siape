@@ -1,8 +1,9 @@
 # Extrator de Dados SIAPE
+
 Este projeto consiste em um script Python que extrai e processa dados de arquivos de servidores e pensionistas, gerando relatórios formatados (extrat2.txt e extrat6.txt). A aplicação utiliza a biblioteca tkinter para fornecer uma interface gráfica simples para carregamento dos arquivos e execução das transformações.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Glossário Básico:
+# Glossário Básico:
 
 UPAG: Unidade Pagadora, identificada por um código de 9 dígitos.
 Matrícula SIAPE: Número de matrícula do servidor ou pensionista no sistema SIAPE.
@@ -23,7 +24,8 @@ Filler: Espaço em branco usado para preencher campos de tamanho fixo que não p
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Funcionalidades
+# Funcionalidades: 
+
 Carregamento de Arquivos: Permite o carregamento de arquivos de servidores e pensionistas em formato de texto.
 Processamento de Dados: Extrai informações específicas dos arquivos carregados e as organiza em listas separadas por tipo de registro.
 Geração de Relatórios: Cria arquivos de saída (extrat2.txt e extrat6.txt) formatados de acordo com as especificações fornecidas.
@@ -33,7 +35,8 @@ Clone o repositório:
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Instale as dependências:
+# Instale as dependências:
+
 Este projeto utiliza a biblioteca tkinter, que geralmente já está incluída na instalação padrão do Python. Se necessário, você pode instalá-la utilizando pip:
 
 pip install tk
@@ -43,7 +46,7 @@ Basta rodar o script Extrator_Siape.py:
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Uso
+# Uso
 Carregamento dos Arquivos:
 
 
@@ -54,7 +57,8 @@ Após carregar os arquivos, clique no botão "Processar e Salvar". O aplicativo 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Estrutura do Código
+# Estrutura do Código
+
 O código está dividido em várias funções que desempenham tarefas específicas:
 
 load_file_content(file_name): Carrega o conteúdo de um arquivo de texto em uma lista de strings.
@@ -67,8 +71,8 @@ load_file(file_type): Carrega o arquivo de servidores ou pensionistas conforme o
 Exemplo de Execução
 python
 Copiar código
-# Inicie a aplicação
+### Inicie a aplicação
 python Extrator_Siape.py
-# Siga as instruções na interface gráfica para carregar os arquivos e processar os dados.
+### Siga as instruções na interface gráfica para carregar os arquivos e processar os dados.
 
 Faça bom uso!
